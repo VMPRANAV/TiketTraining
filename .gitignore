@@ -1,0 +1,90 @@
+# =========================================================================
+# Java Core
+# =========================================================================
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Crash logs (Virtual Machine)
+hs_err_pid*
+replay_pid*
+
+# Package Files (Uncomment if you do not want to track packaged libraries)
+# *.jar
+# *.war
+# *.nar
+# *.ear
+# *.zip
+
+# =========================================================================
+# Build Tools (Maven & Gradle)
+# =========================================================================
+# Maven build output
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle build output and cache
+.gradle/
+build/
+bin/
+!gradle-wrapper.jar
+.gradletasknamecache
+gradle-app.setting
+
+# =========================================================================
+# IDEs (IntelliJ IDEA, Eclipse, NetBeans)
+# =========================================================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+*.launch
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+/.nb-gradle/
+
+# =========================================================================
+# Operating System Files
+# =========================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+out/
+.idea/
+.Extensions/
