@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 class Bank{
  double charge;
- public Bank(){
+ private Bank(){
      this.charge=0;
  }
     protected void  toCharge(double amt) {
