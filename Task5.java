@@ -59,8 +59,6 @@ public class Task5 {
         icc.toCharge(4999);
 
 
-       ArrayList <Integer>arr= new ArrayList<>();
-
     }
 
 
