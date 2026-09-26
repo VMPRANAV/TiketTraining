@@ -141,7 +141,7 @@ public class ClassRoomService {
     }
 
     public StudentResponse findByStudentNameDetailsCaseInsense(String studentName) {
-      ClassRoom studentDetailsClassRoomResponse = classRoomRepositry.findByStudentNameIgnoreCase(studentName).orElseThrow(() -> new RuntimeException("Student Name Not Found Exception"));
+      ClassRoom studentDetailsClassRoomResponse = classRoomRepositry.findByStudentNameIgnoreCase(studentName);
 
         return StudentResponse.builder()
                 .className(studentDetailsClassRoomResponse.getClassName())
@@ -152,7 +152,7 @@ public class ClassRoomService {
                 .build();
     }
     public  StudentResponse findByStudentNameDetails(String studentName){
-        ClassRoom studentDetailsClassRoomResponse =  classRoomRepositry.findByStudentName(studentName).orElseThrow(() -> new RuntimeException("Student Name  Not Found Exception"));
+        ClassRoom studentDetailsClassRoomResponse =  classRoomRepositry.findByStudentName(studentName);
         return StudentResponse.builder()
                 .className(studentDetailsClassRoomResponse.getClassName())
                 .bloodGroup(studentDetailsClassRoomResponse.getBloodGroup())
