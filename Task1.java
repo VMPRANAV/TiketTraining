@@ -3,7 +3,7 @@ class MyList<I extends Number> {
     private int cap;
     private int[]arr;
     private int curr;
-   ;
+   
     public MyList(int cap){
         this.cap=cap;
        this.arr= new int[cap];
