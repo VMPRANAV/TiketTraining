@@ -14,6 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.lang.annotation.Documented;
 
 @Document(collection="student_profile")
+
 @Data
 @Builder
 @AllArgsConstructor
