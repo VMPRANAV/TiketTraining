@@ -1,0 +1,3 @@
+server.port: "9090"
+database.url: "localhost-yaml"
+database.name: "student-yaml"
